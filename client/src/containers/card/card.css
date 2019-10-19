@@ -1,0 +1,76 @@
+.card-wrapper2{
+  height: 100%;
+  /* margin-top: 20vh; */
+}
+.card-container2{
+  /* height: 850px; */
+  min-height: 120%;
+  padding-bottom: 10vh;
+}
+
+.card-header{
+  width: 95vw;
+  min-height: 190px;
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px auto;
+  padding: 10px;
+  padding-bottom: 20px;
+  box-shadow: 0px 5px 50px #dfddc7;
+}
+.card-comment-box{
+  width: 100vw;
+  min-height: 390px;
+  /* border-radius: 20px; */
+  /* background-color: white; */
+  /* margin: 20px auto; */
+  padding: 10px;
+  padding-bottom: 20px;
+  /* box-shadow: 0px 5px 50px #dfddc7; */
+}
+.card-comment-input{
+  position: relative;
+}
+.card-comment-input textarea{
+  width: 95vw;
+  min-height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  margin: 5px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-right: 3.5em;
+  line-height: 2em;
+}
+.card-comment-input button{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);  
+}
+
+
+
+.card-comment{
+  width: 95vw;
+  min-height: 120px;
+  border-radius: 20px;
+  background-color: white;
+  margin: 15px auto;
+  padding: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 5px 50px #dfddc7;
+}
+.card-comment:nth-child(1){
+  margin-top: 0px;
+}
+.card-comment-tag{
+  margin-left: 10px;
+} 
+.card-comment-content{
+  margin-top: 5px;
+}
+
+.card-comment-avatar{
+  margin-left: 0px;
+}

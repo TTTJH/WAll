@@ -1,0 +1,10 @@
+.header{
+  width: 100vw;
+  height: 33vh;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  position: absolute;
+  top: 0px;
+  z-index: -999;
+  background-color: #ffe100;
+}

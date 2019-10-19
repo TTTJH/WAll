@@ -1,0 +1,268 @@
+.personal {
+  /* padding-bottom: 10vh; */
+}
+.clearfix::after,
+.clearfix::before{
+  content: "";
+  display: table;
+  clear: both;
+}
+.personal-bscroll-wrapper{
+  height: 100%;
+  margin-top: 20vh;
+}
+.personal-bscroll-container{
+  /* height: 850px; */
+  height: 115%;
+  padding-bottom: 10vh;
+}
+
+.personal-nickName{
+  text-align: center;
+  /* opacity: 0.8; */
+  font-size: 24px;
+  /* margin-top: 6vh; */
+  margin: 0px;
+  margin: 1vh 0px;
+}
+
+.personal-nickName span{
+  display: inline-block;
+  max-width: 70%;
+  overflow: hidden;
+  vertical-align: middle;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.personal-nickName i{
+  vertical-align: middle;
+}
+
+.personal-card{
+  width: 85vw;
+  /* height: 22vh; */
+  position: relative;
+  margin: 0px auto;
+  /* margin-top: 20vh; */
+  padding-bottom: 2vh;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #d4d7dd;
+}
+
+/* .personal-avatar{
+  width: 23vw;
+  height: 23vw;
+  margin:0px auto;
+  margin-top: -10vw;
+  box-shadow: 0px 0px 20px #f5da13;
+  overflow: hidden;
+  border-radius: 50%;
+} */
+.personal-bscroll-container .ant-upload.ant-upload-select{
+  display: block;
+}
+
+.personal-bscroll-container .ant-upload span{
+  width: 23vw;
+  height: 23vw;
+  margin:0px auto;
+  margin-top: -10vw;
+  box-shadow: 0px 0px 20px #f5da13;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+}
+
+.personal-bscroll-container .ant-upload button{
+  width: 24vw;
+  height: 24vw;
+  margin:0px auto;
+  box-shadow: 0px 0px 20px #f5da13;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 0px;
+  margin-left: -0.5vw;
+  margin-top: -0.5vw;
+}
+
+.show{
+  display: inline-block;
+}
+
+.hide{
+  display: none;
+}
+
+.ant-upload button img{
+  width: inherit;
+  height: inherit;
+}
+.ant-upload-list-item{
+  width: 75vw;
+  margin: 0px auto;
+}
+.ant-upload-list-item-name{
+  display: none;
+}
+
+.personal-avatar2{
+  width: 23vw;
+  height: 23vw;
+  margin: 0px auto;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: -10vw;
+  font-size: 23vw;
+  line-height: 23vw;
+  box-shadow: 0px 0px 20px #f5da13;
+}
+
+
+
+.personal-info{
+  display: flex;
+  /* position: absolute; */
+  /* bottom: 5px; */
+}
+
+.personal-line{
+  height: 25px;
+  width: 1px;
+  margin-top: 12.5px;
+  background-color: #d4d7dd;
+}
+
+.personal-info-box{
+  flex-grow: 1;
+  text-align: center;
+}
+
+.personal-info-num{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.personal-info-txt{
+  font-size: 12px;
+  color: #d4d7dd;
+}
+
+.personal-info-num,
+.personal-info-txt{
+  margin: 0px;
+}
+
+.personal-feature-title{
+  font-size: 20px;
+  margin-left: 8vw;
+  margin-top: 5vw;
+}
+
+.personal-feature-Boxs{
+  width: 85vw;
+  margin: 0px auto;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.personal-feature-Box{
+  flex: 0 0 25%;
+  margin: 2vh 0px;
+}
+
+.personal-feature-box{
+  width: 16vw;
+  height: 16vw;
+  text-align: center;
+  line-height: 16vw;
+  font-size: 36px;
+  margin: 0px auto;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 5px 50px #dfddc7;
+}
+
+.personal-feature-Box:nth-of-type(4) .personal-feature-box{
+  font-size: 30px;
+}
+
+.personal-tags-title{
+  font-size: 20px;
+  margin-left: 8vw;
+  margin-top: 5vw;
+}
+
+.personal-tags-box{
+  width: 85vw;
+  margin: 0px auto;
+}
+
+.personal-tag{
+  display: inline-block;
+  font-weight: bold;
+  padding: 4px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px #dfddc7;
+  background-color: #fffa67;
+}
+.personal .personal-tag:nth-last-of-type(1){
+  width: 50px;
+  text-align: center;
+}
+
+/* vvv tagsAddModal的模态框添加CSS vvv*/
+.tagsAddModal .ant-modal-content,
+.tagsAddModal .ant-modal-body,
+.ant-modal-body input{
+  width: 80vw;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin: 0px auto;
+}
+
+.ant-modal-body input{
+  position: relative;
+  padding: 3px;
+  box-sizing: content-box;
+  padding-left: 15px;
+}
+
+.tagsAddModal .ant-modal-body button{
+  position: absolute;
+  right: -15px;
+  top:50%;
+  margin-top: -16px;
+}
+.tagsAddModal .ant-modal-body button:nth-of-type(1) {
+  right: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.tagsAddModal .ant-modal-body button:nth-of-type(2) {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.tagsAddModal .ant-modal-content .ant-modal-body{
+  padding: 0px;
+}
+/* AAA tagsAddModal的模态框添加CSS AAA*/
+
+/*vvv tags气泡卡片 vvv*/
+.ant-popover-placement-top,
+.ant-popover-placement-top div{
+  border-radius: 50%;
+}
+
+.ant-popover-placement-top .ant-popover-inner-content{
+  padding: 0px;
+}
+.ant-popover-placement-top > .ant-popover-content > .ant-popover-arrow{  
+  border-right-color:#f5da13;
+  border-bottom-color:#f5da13;
+}
+/*AAA tags气泡卡片 AAA*/

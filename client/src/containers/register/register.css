@@ -1,0 +1,33 @@
+.register-wrapper{
+  height: 100vh;
+  box-sizing: content-box;
+}
+
+.register-container{
+  min-height: 120%;
+  box-sizing: content-box;
+
+}
+
+.register-container .ant-form{
+  width: 90vw;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  /* transform: translateY(-50%); */
+  margin-left: -45vw;
+  padding: 30px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0px 5px 50px #dfddc7;
+}
+
+.register-container form div:nth-last-child(1){
+  margin-bottom: 0px;
+}
+
+.register-spec-btns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
