@@ -11,7 +11,7 @@
 * npm start
 * 展示图如下：
 * 有基础的社交功能了哦！😀😀😀
-* ![img img](./test1.png)
-* ![img img](./test2.png)
-* ![img img](./test3.png)
-* ![img img](./test4.png)
+* <img src='./test1.png' width='390px' />
+* <img src='./test2.png' width='390px' />
+* <img src='./test3.png' width='390px' />
+* <img src='./test4.png' width='390px' />
