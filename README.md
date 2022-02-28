@@ -1,6 +1,8 @@
 ### wall
 * 校园社交墙尝试
-<img src="http://www.tttjh.com.cn/imgs/wall1.jpg" width="400px" />
-<img src="http://www.tttjh.com.cn/imgs/wall2.jpg" width="400px" />
-<img src="http://www.tttjh.com.cn/imgs/wall3.jpg" width="400px" />
-<img src="http://www.tttjh.com.cn/imgs/wall4.jpg" width="400px" />
+* 展示图如下：
+* 有基础的社交功能了哦！😀😀😀
+* ![img img](./test1.png)
+* ![img img](./test2.png)
+* ![img img](./test3.png)
+* ![img img](./test4.png)
