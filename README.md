@@ -1,6 +1,5 @@
 ### wall
-* 校园社交墙尝试
-* 技术栈：React + axios + express + mongodb
+* 校园社交墙尝试 - 技术栈：React + axios + express + mongodb
 * git clone https://github.com/TTTJH/wall.git
 * cd wall
 * cd client 
